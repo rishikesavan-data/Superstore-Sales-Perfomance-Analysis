@@ -24,7 +24,9 @@ An interactive Power BI dashboard (Overview, Breakdown, Risk Analysis pages) can
 ### The SQL queries used for EDA and preprocessing can be found in:
 
 Initial Data Checks: [here](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/SQL%20Queries/01_Initial_Data_Checks.sql)
+
 Cleaning & Preparation: [here](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/SQL%20Queries/02_Data_Cleaning_Preparation.sql)
+
 Business Questions: [here](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/SQL%20Queries/03_Business_Questions_Analysis.sql.sql)
 
 # 🧱 Data Structure & Initial Checks
