@@ -123,7 +123,7 @@ Below is the Overview Dashboard from the Power BI report (with additional visual
 
 - Average Order Value (AOV) remains relatively stable, showing healthy customer spending habits.
 
-![Sales trend analysis](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/Images/Sales%20Trend%20Analysis%20View%20.png)
+![YoY trend analysis](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/Images/YoY%20Sales%20Trend%20View.png)
 
 ### 📦 Category & Product Performance
 
