@@ -29,68 +29,6 @@ Cleaning & Preparation: [here](https://github.com/rishikesavan-data/Superstore-S
 
 Business Questions: [here](https://github.com/rishikesavan-data/Superstore-Sales-Perfomance-Analysis/blob/main/SQL%20Queries/03%20Business%20Questions%20Analysis.sql)
 
-# 🧱 Data Structure & Initial Checks
-
-The Superstore dataset consists of a single unified table containing order details, customer information, product hierarchy, shipping dates, sales, discounts, profits, and returns.
-
-Key Columns:
-
-**Dimensions:** Order Date, Ship Date, Region, Segment, Category, Subcategory, Customer Name
-
-**Measures:** Sales, Profit, Discount, Quantity, Returned Orders
-
-A series of initial quality checks was performed to validate:
-
-- Row count (9,994 records)
-
-- Duplicate detection
-
-- Null and inconsistent values
-
-- Mixed date formats (mm/dd/yyyy vs dd-mm-yyyy)
-
-- Datatype mismatches are preventing SQL import
-
-The SQL scripts for initial checks are available here.
-
-# 🧹 Data Cleaning & Preparation
-
-Before analysis, the dataset required extensive cleaning:
-
-### Date Format Normalization
-
-*The original file contained inconsistent date formats that caused SQL import failures.*
-
-Steps taken:
-
-- Split date fields by delimiter (/)
-
-- Replaced / with -
-
-- Merged date components into a unified dd-mm-yyyy format
-
-- Converted final dates into yyyy-mm-dd for MySQL compatibility
-
-MySQL Import Cleanup
-
-- Initial import imported only 148 rows due to:
-
-- Incorrect datatypes in schema
-
-- Invalid date strings
-
-- Decimal columns set as DOUBLE instead of DECIMAL
-
-Fixes applied:
-
-- Created a custom MySQL schema with proper datatypes
-
-- Reformatted the entire dataset and exported to CSV
-
-- Loaded using LOAD DATA INFILE successfully importing all 9,994 rows
-
-The SQL scripts used for cleaning and transformation will be uploaded here
-.
 
 # 🧠 Executive Summary
 ### 📌 Overview of Findings
